@@ -9,7 +9,7 @@ setup(
     description="MHC ligand prediction tool",
     #long_description=long_description,
     #long_description_content_type="text/markdown",
-    url="https://github.com/cmbcu/MHCSeqNet/",
+    url="https://github.com/denklewer/MHCSeqNet/",
     packages=setuptools.find_packages(),
     zip_safe=False,
     classifiers=(

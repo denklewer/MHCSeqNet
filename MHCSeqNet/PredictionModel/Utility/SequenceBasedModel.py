@@ -16,7 +16,8 @@ class SequenceBasedModel:
                 'allele_embedding_size': 6,
                 'allele_dropout': 0.5,
                 'dense_size': 240,
-                'dense_dropout': 0.4}
+                'dense_dropout': 0.4,
+                'config_test_property':'test_OK'}
 
     @staticmethod
     def get_sequence_based_model(configuration, max_peptide_length, num_acceptable_allele, sequence_lengths):
